@@ -21,7 +21,11 @@ sed -i "s/REPLACE_WITH_YOUR_NAME/${project_name}/g" .devcontainer/devcontainer.j
 echo "🔵 Renaming src/REPLACE_WITH_YOUR_NAME to src/${project_name}..."
 mv src/REPLACE_WITH_YOUR_NAME src/${project_name}
 
-# 5. Activate the virtual environment by poetry
+# 5. Install Poetry and dependencies
+echo "🔵 Installing Poetry dependencies..."
+./scripts/install.sh
+
+# 6. Activate the virtual environment by poetry
 echo "🔵 Activating the virtual environment...
 source $(poetry env info --path)/bin/activate
 
