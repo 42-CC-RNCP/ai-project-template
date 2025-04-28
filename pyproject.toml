@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "REPLACE_WITH_YOUR_NAME"
+name = "REPLACE_WITH_YOUR_PROJECT_NAME"
 version = "0.1.0"
-description = "REPLACE_WITH_YOUR_NAME"
+description = ""
 authors = ["REPLACE_WITH_YOUR_NAME <REPLACE_WITH_YOUR_EMAIL>"]
 
 [tool.poetry.dependencies]
