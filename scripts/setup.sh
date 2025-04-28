@@ -22,8 +22,4 @@ sed -i "s/REPLACE_WITH_YOUR_PROJECT_NAME/${project_name}/g" .devcontainer/devcon
 echo "🔵 Renaming src/REPLACE_WITH_YOUR_PROJECT_NAME to src/${project_name}..."
 mv src/REPLACE_WITH_YOUR_PROJECT_NAME src/${project_name}
 
-# 5. Install Poetry and dependencies
-echo "🔵 Installing Poetry dependencies..."
-./scripts/install.sh
-
 echo "✅ Setup complete!"
