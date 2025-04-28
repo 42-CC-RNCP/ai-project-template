@@ -30,9 +30,4 @@ Or run the script `setup.sh` to do this automatically:
 .scripts/install.sh
 ```
 
-3. Rebuild and open the devcontainer:
-
-4. Activate the virtual environment by poetry:
-```bash
-.scripts/activate.sh
-```
+3. Rebuild and open the devcontainer
