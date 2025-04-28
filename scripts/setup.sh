@@ -26,8 +26,4 @@ mv src/REPLACE_WITH_YOUR_PROJECT_NAME src/${project_name}
 echo "🔵 Installing Poetry dependencies..."
 ./scripts/install.sh
 
-# 6. Activate the virtual environment by poetry
-echo "🔵 Activating the virtual environment...
-source $(poetry env info --path)/bin/activate
-
 echo "✅ Setup complete!"
